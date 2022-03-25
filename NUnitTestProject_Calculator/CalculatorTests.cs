@@ -19,28 +19,28 @@ namespace NUnitTestProject_Calculator
         [Test]
         public void Addition_Test()
         {
-            expected = 9;
+            expected = 25;
             Assert.AreEqual(expected, calculator.Add(a, b));
         }
 
         [Test]
         public void Subtraction_Test()
         {
-            expected = 9;
+            expected = 15;
             Assert.AreEqual(expected, calculator.Subtract(a, b));
         }
 
         [Test]
         public void Multiplication_Test()
         {
-            expected = 9;
+            expected = 100;
             Assert.AreEqual(expected, calculator.Muliply(a, b));
         }
 
         [Test]
         public void Division_Test()
         {
-            expected = 9;
+            expected = 4;
             Assert.AreEqual(expected, calculator.Divide(a, b));
         }
 
