@@ -34,7 +34,7 @@ namespace NUnitTestProject_Calculator
         public void Multiplication_Test()
         {
             expected = 100;
-            Assert.AreEqual(expected, calculator.Muliply(a, b));
+            Assert.AreEqual(expected, calculator.Multiply(a, b));
         }
 
         [Test]

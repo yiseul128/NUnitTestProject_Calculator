@@ -16,7 +16,7 @@ namespace NUnitTestProject_Calculator
             return x - y;
         }
 
-        public int Muliply(int x, int y)
+        public int Multiply(int x, int y)
         {
             return x * y;
         }
